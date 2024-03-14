@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #8F9779;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    width: 100%;
+    margin-top: -1.5em;
+    height: 4.5em;
+    background-color:#BB9966;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Pacifico';
+    font-size: 1.5em;
+    color: #FEFBEA;
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 2em;
+    height: 2em;
+    cursor: pointer;
+}
+
+.hamburger:hover {
+    border: solid 2px #b2ba9b;
+    border-radius: 15px;
+    background-color: #b2ba9b;
+}
+
+.line {
+    border-top: solid #FEFBEA 2.5px;
+}
+
+.hero {
+    background-image: url('ImagesForProject/daniela-araya-BBK_MAfIJUI-unsplash.jpg'); /* Replace 'path/to/your-hero-image.jpg' with the path to your hero image */
+    background-size: cover;
+    background-position: center;
+    /*opacity: 0.5;*/
+    filter: brightness(50%);
+    height: 80vh; /* Adjust the height as needed */
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    color: white; /* Text color */
+    text-align: center;
+}
+
+.heroContent {
+    max-width: 800px;
+    padding: 20px;
+}
+
+.heroContent h1 {
+    font-family: 'Pacifico';
+    font-size: 3rem; 
+    margin-bottom: -20px;
+}
+
+.heroContent h6 {
+    font-family: 'Pacifico';
+    font-size: 1.2rem; /* Adjust the font size as needed */
+    margin-bottom: -30px;
+}
+
+.featuredItems {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    width: 100%; 
+    font-family: 'Pacifico';
+    font-size: 1em;
+    background-color:#BB9966; 
+    color: #FEFBEA;
+    margin-bottom: 1em;
+    margin-top:-0.75em;
+}
+
+.featuredItem {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.item {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid #BB9966 2px;
+    background-color:#BB9966; 
+    color: #FEFBEA;
+    width: 80%;
+}
+
+.item h1 {
+    font-family: 'Pacifico';
+}
+
+.item p {
+    font-family: 'Lato';
+}
+
+.arrows {
+    margin-top: 20em;
+    width:5em;
+    height:5em;
+    cursor: pointer;
+}
+
+.arrows:hover {
+    width:6em;
+    height:6em;
+
+}
+
+.aboutUs {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.aboutUs h1 {
+    font-family: 'Pacifico';
+}
+
+.aboutUs p {
+    font-family: 'lato';
+}
+
+.aboutUsDesc {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    background-color:#BB9966;
+    color:#FEFBEA;
+    width: 80%;
+}
+
+.footer {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-evenly; 
+    background-color: #BB9966;
+    margin-top: 1em;
+}
+
+
+
+
+
+
